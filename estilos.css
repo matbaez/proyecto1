@@ -1,6 +1,6 @@
 *{padding: 0; margin: 0;}
 #container{
-    background: linear-gradient(to right, #159957, #155799);
+    background-color: #E5E7E9;
     width: 95%;
     height: 100%;
     margin: auto;
@@ -22,11 +22,11 @@
 nav{
     margin: auto;
     list-style-type: none;
-    background: linear-gradient(to right, #fc5c3d, #6a82fb);
+    background-color: #fbe4ff;
     overflow:hidden;
     height: 60px;
     width: 100%;
-
+    /* background: linear-gradient(to right, #fc5c3d, #6a82fb); */
 }
 li{
     float:left;
@@ -51,7 +51,7 @@ a:hover{
     display: none;
     position: absolute;
     overflow: hidden;
-    background: linear-gradient(to right, #fc5c3d, #6a82fb);
+    background-color: #fbe4ff;
     width: 150px;
 }
 .mostrar:hover .submenu{display: block;
@@ -62,7 +62,7 @@ a:hover{
     margin: 5px;
 }
 #table{
-    background: linear-gradient(to right, #da4453, #89216b);
+    background-color: #ecd4ff;
     height: 90%;
     margin: auto;
     padding: 10px;
@@ -70,7 +70,7 @@ a:hover{
     text-align: center;
 }
 tr{
-    background-color: gray;
+    background-color: #B5B9FF;
     width: 30%;
 
 
