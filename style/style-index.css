@@ -27,11 +27,12 @@
 
 nav {
     list-style-type: none;
-    background-color: #EB984E;
+    background-color: #EDBB99;
     overflow:hidden;
     height: 60px;
     width: 95%;
     margin: auto;
+    border-radius: 5px;
 
 }
 
@@ -60,7 +61,7 @@ a:hover{
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color: #EB984E;
+    background-color: #EDBB99;
     width: 150px;
 }
 .mostrar:hover .submenu{display: block;
