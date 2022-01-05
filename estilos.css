@@ -15,9 +15,11 @@
 .img-logo{
     height: 60px;
     float: left;
+    width: 5%;
 }
 .barnav{
-    margin:auto
+    margin:auto;
+    width: 100%;
 }
 nav{
     margin: auto;
@@ -25,8 +27,7 @@ nav{
     background-color: #fbe4ff;
     overflow:hidden;
     height: 60px;
-    width: 100%;
-    /* background: linear-gradient(to right, #fc5c3d, #6a82fb); */
+    width: 95%;
 }
 li{
     float:left;
@@ -66,7 +67,6 @@ a:hover{
     height: 90%;
     margin: auto;
     padding: 10px;
-    /* border: black 0.5px double; */
     text-align: center;
 }
 tr{
@@ -80,22 +80,11 @@ tr img{
     width: 100%
 }
 td{
-    /* border: black 0.5px solid; */
     border-radius: 5px;
     padding: 10px;
     width: 30%;
     height: 30%;
 }
-/* .img-auto{
-    height: 50%;
-    width: 50%;
-    padding: 10px;
-}
-.img1{
-    height: 30%;
-    width: 60%;
-    margin: auto; 
-}*/
 .description{
     margin: auto;
     padding-top: 5px;

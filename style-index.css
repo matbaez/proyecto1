@@ -14,15 +14,14 @@
     overflow: hidden;
     background-color: #95A5A6;
 }
-.barnav{
-
+.header{
     margin: auto;
-    width: 90%;
-    background-color: white;
-    justify-content:space-between;
+    width: 100%;
+    background-color: #95A5A6;
+    
 }
 .img-logo{
-    height: 60px;
+    width: 5%;
     float: left;
 }
 
@@ -31,14 +30,9 @@ nav {
     background-color: #EB984E;
     overflow:hidden;
     height: 60px;
-    width: 100%;
-    
-}
+    width: 95%;
+    margin: auto;
 
-ul li{
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
 }
 
 li{
@@ -53,6 +47,7 @@ li a{
     display: block;
     padding: 20px;
     color: black;
+    margin-left: 10px;
 }
 a:hover{
     background:transparent;
@@ -65,7 +60,7 @@ a:hover{
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color: #5F6A6A;
+    background-color: #EB984E;
     width: 150px;
 }
 .mostrar:hover .submenu{display: block;
