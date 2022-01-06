@@ -2,11 +2,9 @@
     margin: 0;
     font-family: sans-serif;
 }
-/* body{
-    padding: 15px;
-} */
 .container{
     width: 100%;
+    min-height: 100vh;
     padding-top: 15px;
     padding-left: 8%;
     padding-right: 8%;
@@ -15,17 +13,13 @@
     background-color: #95A5A6;
 }
 .barnav{
-    /* margin: auto; */
-    width: 100%;
-    background-color: #95A5A6;
+    width: 100%; 
     display: flex;
     align-items: center;
 
-    
 }
 .img-logo{
-    width: 70px;
-    /* float: left; */
+    width: 65px;
     cursor: pointer;
     margin: 10px 0;
 }
@@ -36,31 +30,29 @@
 }
 
 nav {
-    list-style-type: none;
-    background-color: #EDBB99;
-    overflow:hidden;
+    text-align: center;
     height: 60px;
-    width: 95%;
+    width: 390px;
     margin: auto;
+    background-color: #EDBB99;
     border-radius: 5px;
-
 }
 
-li{
-    float:left;
+nav ul li{
     font-size: 20px;
     background: transparent;
     list-style-type: none;
+    display: inline-block;
     
 }
-li a{
+nav ul li a{
     text-decoration: none;
     display: block;
     padding: 20px;
     color: black;
     margin-left: 10px;
 }
-a:hover{
+nav ul li a:hover{
     background:transparent;
     color: #fff;
 }
@@ -71,7 +63,7 @@ a:hover{
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color: #EDBB99;
+    /* background-color: #EDBB99; */
     width: 150px;
 }
 .mostrar:hover .submenu{display: block;
@@ -80,5 +72,54 @@ a:hover{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    margin: 40px 0;
+    margin: 70px 0;
+}
+.text{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+    
+}
+.text::after{
+    content: '';
+    width: 40%;
+    position: absolute;
+    left: -40px;
+    top: 8px;}
+
+.img{
+    flex-basis: 40%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width:700px){
+
+    nav{
+        background-color: transparent;
+    }
+    nav ul{
+        width: 100%;
+        position: absolute;
+        background-color: #EDBB99;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
 }

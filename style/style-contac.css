@@ -12,35 +12,47 @@
     margin: auto;
     width: 90%;
 }
-.img-logo{
-    height: 60px;
-    float: left;
-}
 .barnav{
-    margin:auto
+    width: 100%; 
+    display: flex;
+    align-items: center;
+
 }
-nav{
-    margin: auto;
-    list-style-type: none;
-    background-color: #fbe4ff;
-    overflow:hidden;
+.img-logo{
+    width: 70px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.menu-icon{
+    width: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
+    text-align: center;
     height: 60px;
-    width: 100%;
-    /* background: linear-gradient(to right, #fc5c3d, #6a82fb); */
+    width: 390px;
+    margin: auto;
+    background-color: #EDBB99;
+    border-radius: 5px;
 }
-li{
-    float:left;
+
+nav ul li{
     font-size: 20px;
     background: transparent;
     list-style-type: none;
+    display: inline-block;
+    
 }
-li a{
+nav ul li a{
     text-decoration: none;
     display: block;
     padding: 20px;
     color: black;
+    margin-left: 10px;
 }
-a:hover{
+nav ul li a:hover{
     background:transparent;
     color: #fff;
 }
@@ -51,7 +63,7 @@ a:hover{
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color: #fbe4ff;
+    /* background-color: #EDBB99; */
     width: 150px;
 }
 .mostrar:hover .submenu{display: block;
@@ -79,4 +91,34 @@ a:hover{
     font-size: 18px;
     width: 400px;
     font-family: Patrick Hand;
+}
+@media only screen and (max-width:700px){
+
+    nav{
+        background-color: transparent;
+    }
+    nav ul{
+        width: 100%;
+        position: absolute;
+        background-color: #EDBB99;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
 }
