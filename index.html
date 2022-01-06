@@ -9,13 +9,12 @@
 </head>
 <body>
     <div class="container">
-        <!-- <div id="col"> -->
-            <div class="header">
+            <div class="barnav">
                 <a href="index.html">
                     <img class="img-logo" src="img/img.png" alt="">
                 </a>
                 <nav>
-                    <ul>
+                    <ul id="menu-List">
                         <li class="actual"><a href="">Inicio</a></li>
                         <li class="mostrar"> <a href="autos.html">Trabajos</a>
                             <div class="submenu">
@@ -29,8 +28,8 @@
                         </li>
                     </ul>
                 </nav>
+                <img src="img/menu.png" class="menu-icon" onclick="toggleMenu()">
             </div>
-        <!-- </div> -->
         <div class="row">
             <div class="text">
                 <h1>Impresiones KOKO</h1>
@@ -44,4 +43,22 @@
         </div>
     </div>
 </body>
+<script>
+    var menuList = document.getElementById("menuList")
+
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu(){
+
+        if (menuList.style.maxHeight == "0px") {
+
+            menuList.style.maxHeight = "130px"
+            
+        } else {
+            
+            menuList.style.maxHeight = "0px"
+
+        }
+    }
+</script>
 </html>
