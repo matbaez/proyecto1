@@ -1,14 +1,20 @@
-*{padding: 0;margin: 0;}
-#container{
-    background-color: #E5E7E9;
-    width: 95%;
-    height: 100%;
+*{padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
     margin: auto;
-    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 20px;
     border: 10px;
     text-align: center;
+    box-sizing: border-box;
+    background-color: #95A5A6;
 }
-#col{
+.col{
     margin: auto;
     width: 90%;
 }
@@ -16,12 +22,14 @@
     width: 100%; 
     display: flex;
     align-items: center;
+    margin: auto;
 
 }
 .img-logo{
     width: 70px;
     cursor: pointer;
     margin: 10px 0;
+
 }
 .menu-icon{
     width: 50px;
