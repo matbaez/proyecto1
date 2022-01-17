@@ -11,11 +11,11 @@
     text-align: center;
     background-color: #95A5A6;
 }
-#col{
+/* #col{
     margin: auto;
     width: 90%;
     background-color: #95A5A6;
-}
+} */
 .barnav{
     width: 100%; 
     display: flex;
@@ -41,7 +41,7 @@ nav {
     height: 60px;
     width: 390px;
     margin: auto;
-    background-color: #EDBB99;
+    background-color: #ecd4ff;
     border-radius: 5px;
 }
 
@@ -75,14 +75,15 @@ nav ul li a:hover{
 }
 .mostrar:hover .submenu{display: block;
 }
-.table{
-    width: 60%;
-    height: 90%;
-    margin: 5px;
+table{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    padding: 15px;
 }
 #table{
     background-color: #ecd4ff;
-    height: 90%;
+    height: 80%;
     margin: auto;
     padding: 10px;
     text-align: center;
