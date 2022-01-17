@@ -2,34 +2,40 @@
     margin: 0;
     font-family: sans-serif;
 }
-.container{
-    width: 100%;
+#container{
+    width: 95%;
+    height: 100%;
     margin: auto;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-top: 20px;
+    padding: 20px;
     border: 10px;
     text-align: center;
-    box-sizing: border-box;
+    background-color: #95A5A6;
+}
+#col{
+    margin: auto;
+    width: 90%;
     background-color: #95A5A6;
 }
 .barnav{
-    /* width: 10%;  */
+    width: 100%; 
     display: flex;
     align-items: center;
-    margin: auto;
+    padding: 15px;
+    /* padding-top: 15px; */
+    background-color: #95A5A6;
 
 }
 .img-logo{
     width: 70px;
     cursor: pointer;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 .menu-icon{
     width: 50px;
     cursor: pointer;
     display: none;
 }
+
 nav {
     text-align: center;
     height: 60px;
@@ -80,7 +86,6 @@ nav ul li a:hover{
     margin: auto;
     padding: 10px;
     text-align: center;
-    border-radius: 5px;
 }
 tr{
     background-color: #B5B9FF;

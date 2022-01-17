@@ -12,21 +12,12 @@
     overflow: hidden;
     background-color: #95A5A6;
 }
-/* .col{
-    margin: auto;
-    width: 90%;
-} */
 .barnav{
-    width: 95%; 
+    width: 100%; 
     display: flex;
     align-items: center;
     margin: auto;
 
-}
-.img-logo{
-    width: 65px;
-    cursor: pointer;
-    margin: 10px 0;
 }
 .menu-icon{
     width: 50px;
