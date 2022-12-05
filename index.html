@@ -11,49 +11,31 @@
     <div class="container">
         <header>
             <nav>
-                <ul id="menu-List">
-                    <li class="actual"><a href="">Inicio</a></li>
-                    <li class="mostrar"> <a href="job.html">Trabajos</a>
-                    </li>
-                    <li>
-                        <a href="contac.html">Contacto</a>
-                    </li>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
-            <img src="img/menu.png" class="menu-icon" onclick="toggleMenu()">
         </header>
-        <article>
-            <div class="text">
-                <h1>Impresiones KOKO</h1>
-                <p>Impresiones en 3D</p><br>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore adipisci dolorem voluptatum autem, et, repellat doloremque totam quas fuga accusantium, sit tempore cupiditate voluptas doloribus placeat harum praesentium perferendis quis.                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sapiente ipsa temporibus voluptates laudantium aspernatur quam. Perspiciatis quod illum voluptatem tempora dicta rem tempore vero voluptates quae necessitatibus, totam assumenda.
-                </h5>
+        <section class="splash">
+            <h1>Impresiones KOKO</h1><br>
+        </section>
+        <section>
+            <div class="card">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore adipisci dolorem voluptatum autem, et, repellat doloremque totam quas fuga accusantium, sit tempore cupiditate voluptas doloribus placeat harum praesentium perferendis quis.                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sapiente ipsa temporibus voluptates laudantium aspernatur quam. Perspiciatis quod illum voluptatem tempora dicta rem tempore vero voluptates quae necessitatibus, totam assumenda.
+                </p>
             </div>
-            <div class="img">
-                <a href="index.html">
-                    <img src="img/img.png" alt="">
-                </a>
+            <div class="card">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore adipisci dolorem voluptatum autem, et, repellat doloremque totam quas fuga accusantium, sit tempore cupiditate voluptas doloribus placeat harum praesentium perferendis quis.                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sapiente ipsa temporibus voluptates laudantium aspernatur quam. Perspiciatis quod illum voluptatem tempora dicta rem tempore vero voluptates quae necessitatibus, totam assumenda.
+                </p>
             </div>
-        </article>
+        </section>
+
+        <footer>
+            <p><strong> Impresiones Koko 2022</strong></p>
+        </footer>
     </div>
     
 </body>
-<script>
-    var menuList = document.getElementById("menuList")
-
-    menuList.style.maxHeight = "0px";
-
-    function toggleMenu(){
-
-        if (menuList.style.maxHeight == "0px") {
-
-            menuList.style.maxHeight = "130px"
-            
-        } else {
-            
-            menuList.style.maxHeight = "0px"
-
-        }
-    }
-</script>
 </html>
